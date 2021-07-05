@@ -3,7 +3,7 @@ API for creating global command in CollabVM.
 
 # API Example
 ```javascript
-var e=new GlobalCommand({
+var e = new GlobalCommand({
 onchat: function(content, username){
 console.log(username + ' chatted' + content);
 }});
